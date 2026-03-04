@@ -38,14 +38,14 @@ function updateCountdown() {
 // ==================== 遊戲功能 ====================
 function openGame(gameName) {
     const games = {
-        'MultiplicationBattle': '數學/乘法拔河-MultiplicationBattle.html',
-        'RatioSafe': '數學/比例金庫-RatioSafe.html',
-        'MatrixConquest': '數學/矩陣爭奪戰-MatrixConquest.html',
-        'PenaltyShootout': '數學/12碼射門-座標挑戰.html'
+        'MultiplicationBattle': 'games/乘法拔河-MultiplicationBattle.html',
+        'RatioSafe': 'games/比例金庫-RatioSafe.html',
+        'MatrixConquest': 'games/矩陣爭奪戰-MatrixConquest.html',
+        'PenaltyShootout': 'games/12碼射門-座標挑戰.html'
     };
     
     if (games[gameName]) {
-        alert(`🎮 準備進入：${gameName}\n\n等老師將網站host上去之後就可以玩喇！`);
+        window.open(games[gameName], '_blank');
     }
 }
 
