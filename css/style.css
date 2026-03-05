@@ -609,3 +609,64 @@ footer {
     font-size: 1.1rem;
     color: #666;
 }
+
+/* 合併後的活動形式 */
+.activity-format-merged {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.format-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.format-row .format-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.format-icon {
+    font-size: 2rem;
+}
+
+.format-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.format-detail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+    font-size: 1rem;
+}
+
+.badge {
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.badge.junior {
+    background: #4CAF50;
+    color: white;
+}
+
+.badge.senior {
+    background: #FF9800;
+    color: white;
+}
