@@ -464,3 +464,148 @@ footer {
         font-size: 2rem;
     }
 }
+
+/* 數學周結構 */
+.structure {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.structure h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.structure-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.structure-card {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    flex: 1;
+    min-width: 280px;
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+.structure-card.highlight {
+    background: rgba(255,255,255,0.25);
+    border-color: #ffd700;
+}
+
+.structure-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.structure-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.structure-date {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.structure-desc {
+    opacity: 0.9;
+    font-size: 0.95rem;
+}
+
+/* 活動形式 */
+.activity-format {
+    padding: 60px 20px;
+    background: #f8f9fa;
+}
+
+.activity-format h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.format-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.format-card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    flex: 1;
+    min-width: 280px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.format-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #4A90E2;
+}
+
+.format-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.format-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.badge {
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.badge.junior {
+    background: #4CAF50;
+    color: white;
+}
+
+.badge.senior {
+    background: #FF9800;
+    color: white;
+}
+
+.day {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.lunch-info {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.lunch-days {
+    font-size: 1.1rem;
+    color: #666;
+}
