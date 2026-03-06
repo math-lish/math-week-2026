@@ -402,6 +402,7 @@
         <!-- Student Screen -->
         <div id="studentScreen" class="screen">
             <a class="back-btn" onclick="showScreen('menuScreen')">← 返回主目錄</a>
+            <a class="back-btn" onclick="showScreen('menuScreen')">← 返回主目錄</a>
             <div class="student-card">
                 <h2>👨‍🎓 學生頁面</h2>
                 
@@ -485,6 +486,7 @@
         <!-- Setup Screen (Scorekeeper) -->
         <div id="setupScreen" class="screen">
             <a class="back-btn" onclick="showScreen('menuScreen')">← 返回主目錄</a>
+            <a class="back-btn" onclick="showScreen('menuScreen')">← 返回主目錄</a>
             <div class="setup-card">
                 <h1>🎲 Rummikub 計時器</h1>
                 
@@ -521,6 +523,7 @@
         
         <!-- Game Screen -->
         <div id="gameScreen" class="screen">
+            <a class="back-btn" onclick="showScreen('menuScreen')">← 返回主目錄</a>
             <div class="game-header">
                 <div class="players-row" id="playersRow"></div>
             </div>
@@ -754,7 +757,8 @@
             document.querySelectorAll('.player-count-btns button').forEach(btn => btn.classList.remove('active'));
             event.target.classList.add('active');
             generatePlayerInputs();
-
+        }
+        
         function generatePlayerInputs() {
             const container = document.getElementById('playerInputs');
             container.innerHTML = '';
